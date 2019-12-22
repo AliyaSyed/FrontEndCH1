@@ -1,0 +1,132 @@
+body{
+	font-size: 16px;
+	font-family:  'Karla', sans-serif;
+	line-height: 2;
+}
+.top-container{
+	margin: 0 auto 0 70px;
+}
+.para1{
+	width: 70%;
+}
+h1{
+	color: hsl(179, 62%, 43%);
+	margin: 40px auto 40px auto;
+}
+.top{
+	color:  hsl(71, 73%, 54%);
+	margin: auto;
+}
+ h3{
+	color:  white;
+}
+.price{
+	color: white;
+	margin-top: -10px;
+}
+.container1{
+	background-color: hsl(179, 62%, 43%);
+	position: absolute;
+	display: inline-block;
+	width:600px;
+	height: 350px;
+	padding:40px;
+	left:  0px;
+	color: white;
+}
+.container2{
+	background-color: #3fc5f0;
+	position: absolute;
+	display: inline-block;
+	width:600px;
+	height: 350px;
+	left: 669px;
+	margin: auto;
+	padding:40px;
+	color: white;
+}
+.inner-container1{
+	margin: 0 auto 0 40px;
+
+}
+.inner-container2{
+	margin: 0 auto 0 40px;
+}
+.p1{
+	position: relative;
+	display: inline-block;
+	left: 90px;
+	top: -100px;
+	font-weight: 400;
+}
+.p2{
+	font-weight: 400;
+	margin-top: -100px;
+}
+.p3{
+	font-weight: 400;
+	width: 40%;
+}
+.myButton {
+	box-shadow: 0px 10px 14px -7px #61605b;
+	background-color: hsl(71, 73%, 54%);
+	border-radius:7px;
+	border:1px solid  hsl(71, 73%, 54%);
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:18px;
+	font-weight:bold;
+	width: 50%;
+	padding:15px 76px;
+	text-align: center;
+	text-decoration:none;
+	margin-top: 20px;
+}
+.myButton:hover {
+	background-color:  #99AF00;
+}
+@media screen and (max-width: 375px) {
+	.top-container{
+	margin: auto auto 20px 30px;
+    }
+	.container1{
+	position: absolute;
+	display: block;
+	width: 295px;
+	height: 400px;
+    }
+.container2{
+	position: relative;
+	display: block;
+	width: 312px;
+	height: 400px;
+	left: -25px;
+	top: 350px;
+	
+    }
+    .inner-container1{
+ 	margin: 0 auto 0 0px;
+
+    }
+.inner-container2{
+	 margin-left: 20px;
+    }
+.p1{
+	position: relative;
+	display: inline-block;
+	left: 90px;
+	top: -100px;
+	font-weight: 400;
+}
+.p2{
+	font-weight: 400;
+	margin-top: -100px;
+}
+.p3{
+	font-weight: 400;
+	width: 70%;
+ }
+
+}
